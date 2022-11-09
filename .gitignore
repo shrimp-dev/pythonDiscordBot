@@ -129,7 +129,4 @@ dmypy.json
 .pyre/
 
 # path
-/documentos
-/documentos_txt
 APIKEY.txt
-/battleRoyale/*.txt
