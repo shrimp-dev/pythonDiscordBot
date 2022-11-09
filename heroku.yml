@@ -3,3 +3,5 @@ build:
     web: dockerfile
   config:
     API_KEY: ${API_KEY}
+  
+command: python3 main.py
