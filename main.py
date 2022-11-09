@@ -4,10 +4,11 @@ from discord.ext.commands import cog
 from discord.flags import Intents
 import bot
 from dotenv import load_dotenv
-
+import os
 
 cogs = [bot]
 
+load_dotenv() 
 apikey = os.getenv("API_KEY")    
 client = commands.Bot(command_prefix=';', Intents= discord.Intents.all)
 
