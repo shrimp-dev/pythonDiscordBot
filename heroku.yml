@@ -1,8 +1,8 @@
 build:
   docker:
-    web: dockerfile
+    worker: dockerfile
   config:
     API_KEY: ${API_KEY}
   
 run:
-  web: python3 ./main.py
+  worker: python3 ./main.py
