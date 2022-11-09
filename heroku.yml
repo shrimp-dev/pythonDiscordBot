@@ -4,4 +4,5 @@ build:
   config:
     API_KEY: ${API_KEY}
   
-command: python3 main.py
+run:
+  web: python3 ./main.py
