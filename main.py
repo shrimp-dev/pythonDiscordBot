@@ -8,8 +8,9 @@ import os
 
 cogs = [bot]
 
-load_dotenv() 
-apikey = os.getenv("API_KEY")    
+
+apikey = os.getenv("API_KEY")  
+print(apikey)  
 client = commands.Bot(command_prefix=';', Intents= discord.Intents.all)
 
 for i in range(len(cogs)):
